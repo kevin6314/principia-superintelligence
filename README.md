@@ -16,6 +16,6 @@ Install with `npm ci`, preview with `npm run dev`, and build with `npm run build
 
 Only this directory belongs to the site repository. Never copy internal strategy, investor notes, transcripts, partner terms, credentials or private source documents into this tree. The first deployment is owner-only. A public release or custom-domain change needs an explicit publishing instruction.
 
-Public copy describes an early product under development. It anonymizes application areas, does not claim measured performance and includes only Kevin and Nick. Links go to their supplied LinkedIn profiles. Add a dedicated inquiry destination when the founder provides one. No data-collection form or analytics is installed.
+Public copy describes an early product under development. It anonymizes application areas, does not claim measured performance and uses the company inquiry address, hello@principiasuperintelligence.com. Founder names and LinkedIn links are omitted. Mail links open the visitor’s email client; mailbox provisioning is outside this site. No data-collection form or analytics is installed.
 
 The prism is a conceptual brand illustration reused from `../assets/principia-cover.png`, not a photograph of scientific results. All other visible graphics are typography and layout. No generated social-preview image.
