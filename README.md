@@ -1,21 +1,21 @@
-# Principia landing page
+# Principia Superintelligence
 
-Public-facing company site, separate from the internal company workspace. Built with Vinext/React and the Sites starter. Uses the existing Principia prism artwork.
+Public company website built with React, Vinext and Tailwind CSS.
 
-## Edit
+Live: https://kevin6314.github.io/principia-superintelligence/
 
-- `app/page.tsx`: public copy and page structure.
-- `app/globals.css`: shared theme, responsive layout and typography.
-- `app/layout.tsx`: site metadata.
-- `public/`: publishable assets only.
-- `.openai/hosting.json`: stable Sites project identity. Reuse it on updates.
+## Development
 
-Install with `npm ci`, preview with `npm run dev`, and build with `npm run build`. Keep the package lock. Use the Sites hosting workflow to publish the exact validated build. No browser testing was requested; the first release received a production build and successful route response check.
+Use Node.js 22.13 or newer. Install with `npm ci`, then run `npm run dev`.
+
+The static homepage uses a generated engraving with Newton-inspired working marks, not historical transcriptions. No analytics or contact-form backend is installed; inquiry links open an email client.
+
+## GitHub Pages
+
+Run `npm run build:pages` for the static export. Pages serves the compiled `gh-pages` branch. After signing in with GitHub CLI, publish with `bash scripts/deploy-pages.sh`. Commit and push source changes to `main` separately.
+
+The script stages only the homepage, runtime assets, favicon and selected background, preserving deployment branch history. It does not upload the local design archive. The ordinary `npm run build` retains the existing Sites-compatible build.
 
 ## Publication boundary
 
-Only this directory belongs to the site repository. Never copy internal strategy, investor notes, transcripts, partner terms, credentials or private source documents into this tree. The first deployment is owner-only. A public release or custom-domain change needs an explicit publishing instruction.
-
-Public copy describes an early product under development. It anonymizes application areas, does not claim measured performance and uses the company inquiry address, hello@principiasuperintelligence.com. Founder names and LinkedIn links are omitted. Mail links open the visitor’s email client; mailbox provisioning is outside this site. No data-collection form or analytics is installed.
-
-The prism is a conceptual brand illustration reused from `../assets/principia-cover.png`, not a photograph of scientific results. All other visible graphics are typography and layout. No generated social-preview image.
+Only this website directory belongs to the repository. Internal strategy, private documents, credentials and local design iterations must not be added. Prior visual explorations remain on the author's workstation and are excluded from Git and deployment.

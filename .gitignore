@@ -36,3 +36,9 @@ next-env.d.ts
 /.wrangler/
 /outputs/
 /work/
+
+# Local design exploration; preserved on disk, not published.
+/design-iterations/
+/lib/two-body.mjs
+/public/newton-dawn-engraving-v2.png
+/public/newton-under-tree-engraving.png
