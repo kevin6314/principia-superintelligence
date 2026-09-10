@@ -4,7 +4,8 @@ cd "$(dirname "$0")/.."
 npm run build:pages
 pages_stage=$(mktemp -d)
 cp dist/client/index.html dist/client/index.rsc public/favicon.svg public/newton-notebook-engraving-v3.png "$pages_stage/"
-cp -R dist/client/principia-superintelligence/_next "$pages_stage/_next"
+cp -R dist/client/_next "$pages_stage/_next"
+cp public/CNAME "$pages_stage/CNAME"
 cp scripts/pages.nojekyll "$pages_stage/.nojekyll"
 git -C "$pages_stage" init -b gh-pages
 git -C "$pages_stage" add .

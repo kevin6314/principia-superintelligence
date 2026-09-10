@@ -2,7 +2,7 @@
 
 Public company website built with React, Vinext and Tailwind CSS.
 
-Live: https://kevin6314.github.io/principia-superintelligence/
+Custom domain: https://principiasuperintelligence.com/ (requires Namecheap DNS pointing to GitHub Pages).
 
 ## Development
 

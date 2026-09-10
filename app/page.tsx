@@ -14,7 +14,7 @@ export default function Home() {
           <div className="gravity-stage">
             <img
               className="engraving"
-              src={`${process.env.PAGES_BUILD === '1' ? '/principia-superintelligence' : ''}/newton-notebook-engraving-v3.png`}
+              src="/newton-notebook-engraving-v3.png"
               alt="An engraved scholar reclining beneath an apple tree"
               width="1672"
               height="941"
